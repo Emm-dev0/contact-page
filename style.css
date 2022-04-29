@@ -64,7 +64,8 @@ h2:after{
     background-color: #2ecc71;
 }
 .field{
-    width: 100%;
+    width: 90%;
+   border-radius: 10px;
     padding: 0.5rem 1rem;
     outline: none;
     border: 2px solid rgba(0, 0, 0, 0);
@@ -81,10 +82,12 @@ h2:after{
     border: 2px solid rgba(30, 85, 250, 0.47);
 }
 .area{
+   
     min-height: 150px
 }
 .btn{
-    width: 100%;
+    border-radius: 10px;
+    width: 90%;
     padding:0.5rem 1rem;
     font-size: 1.1rem;
     background-color: #2ecc71;
@@ -92,6 +95,7 @@ h2:after{
     outline: none;
     border: none;
     transition: .3s;
+    margin-bottom: 5px;
 
 }
 .btn:hover{
@@ -99,7 +103,7 @@ h2:after{
 }
 @media screen and (max-width:880px){
     .container{
-        padding: 20px 10px;
+        padding: 20px 15px;
     }
     .contact-box{
     
